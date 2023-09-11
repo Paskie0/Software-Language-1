@@ -23,7 +23,7 @@
 
         table {
             background-color: #212121;
-            border: 2px solid rgb(255, 255, 255, 0.5);
+            border: 1px solid #f3cc30;
             border-radius: 0.5rem;
             border-spacing: 0;
             overflow: hidden;
@@ -58,13 +58,13 @@
     <?php
     date_default_timezone_set("Europe/Amsterdam");
     if (date("a") == "am") {
-        echo "<style>body{background-color: #fff;color:#000;}</style>";
-        echo "<style>table{background-color: #d8ccb8;}</style>";
-        echo "<style>tr:nth-child(odd){background-color: #fff0d9;}</style>";
+        echo "<style>body{background-color: #e4d8b4;color:#000;}</style>";
+        echo "<style>table{background-color: #ffbc79;}</style>";
+        echo "<style>tr:nth-child(odd){background-color: #efa96c;}</style>";
     } else {
-        echo "<style>body{background-color: #121212;color:#fff;}</style>";
-        echo "<style>table{background-color: #212121;}</style>";
-        echo "<style>tr:nth-child(odd){background-color: #313131;}</style>";
+        echo "<style>body{background-color: #130b30;color:#fff;}</style>";
+        echo "<style>table{background-color: #0c071d;}</style>";
+        echo "<style>tr:nth-child(odd){background-color: #1b1043;}</style>";
     }
     ?>
     <table>
