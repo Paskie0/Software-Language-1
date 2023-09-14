@@ -10,7 +10,7 @@ $kitesAndSizes2 = [
     ['name' => "Gaastra", 'age' => "9m"],
     ['name' => "Naisin", 'age' => "7m"]
 ];
-echo "<strong>index:</strong> " . $kites[0];
+echo "<strong>index:</strong> " . $kites[0] . ", " . $kites[1] . ", " . $kites[2];
 echo "<br>";
 echo "<strong>implode:</strong> " . implode(", ", $kites);
 echo "<br>";
@@ -42,7 +42,7 @@ for ($i = 0; $i < count($kitesAndSizes2); $i++) {
     echo $kitesAndSizes2[$i]["name"] . " " . $kitesAndSizes2[$i]["age"] . " ";
 }
 echo "<br>";
-echo "<strong>multidimensional arrays (key names):</strong> ";
+echo "<strong>multidimensional arrays (index + key names):</strong> ";
 echo $kitesAndSizes2[0]["name"] . " " . $kitesAndSizes2[0]["age"] . " ";
 echo $kitesAndSizes2[1]["name"] . " " . $kitesAndSizes2[1]["age"] . " ";
 echo $kitesAndSizes2[2]["name"] . " " . $kitesAndSizes2[2]["age"] . " ";
