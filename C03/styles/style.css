@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 1rem;
+  justify-items: center;
+  align-content: start;
+  font-family: sans-serif;
+}
+
+.memberCard {
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 2/3;
+  padding: 1rem;
+  background-color: yellow;
+  border: 3px solid black;
+  border-radius: 1rem;
+}
